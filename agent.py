@@ -54,6 +54,6 @@ def create_agent():
 if __name__ == "__main__":
     # This block only runs if executed directly, not when imported
     agent = create_agent()
-    runner = ConsoleRunner(agent=agent, plugins=[LoggingPlugin()])
+    runner = InMemoryRunner(agent=agent, plugins=[LoggingPlugin()])
     print("🇯🇵 Sensei is ready! Type 'exit' to stop.")
     runner.run()
