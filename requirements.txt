@@ -1,0 +1,4 @@
+google-adk
+google-auth
+opentelemetry-instrumentation-google-genai
+python-dotenv
